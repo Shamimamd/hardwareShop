@@ -1,0 +1,32 @@
+/* Navbar.css */
+.navbar__logo {
+  height: 50px; /* Adjust according to your logo size */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #555;
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-right: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

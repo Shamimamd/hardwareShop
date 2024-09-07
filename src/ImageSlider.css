@@ -1,0 +1,15 @@
+.slider-container {
+  width: 80%;
+  margin: auto;
+}
+
+.slide {
+  text-align: center;
+}
+
+.rounded-image {
+  width: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
